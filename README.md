@@ -40,4 +40,5 @@ SteamSourceID |        BuildingID representing the source of steam of this build
 ChilledWaterSourceID | BuildingID representing the source of chilled water of this building (1)
 HotWaterSourceID |     BuildingID representing the source of hot water of this building (1)
 
-1. Some buildings are supplied by other buildings on campus and will have values, others are supplied by external sourced and will not have values.
+
+1. Some buildings are supplied by other buildings on campus and will have values, others are supplied by external sources and will not have values.

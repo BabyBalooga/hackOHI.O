@@ -1,1 +1,2 @@
-# hackOHI.O
+# HackOHI.O
+Data For OSU Hackathon

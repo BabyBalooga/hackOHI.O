@@ -3,10 +3,9 @@ Data For OSU Hackathon
 
 There are two files, data and config, linked on the column MeterID.
 
-------
---- HackathonData.csv
-------
+
 The data file contains time series data for the challenge. Each meter represents the consumption for one of the following resources: Chilled Water, Heating Hot Water, or Steam. Each meter has two years (or less in some cases) of average daily usage.
+
 Field Name | Field Description
 ---------- | -----------------
 MeterID |              Meter identifier, will have a match in the config file
@@ -16,9 +15,7 @@ Time |                 Time of measurement in UTC, format yyyy-mm-ddThh:mm:ssZ
 Status |               Sometimes meters malfunction. Indicator for if this time period of data is OK or UNRELIABLE
 StatusCode |           Numeric representation of status
 
-------
---- HackathonConfig.csv
-------
+
 The config file contains meta data for the challenge. Each meter represents consumption for a building. Meter and building attributes are included here.
                       
 * MeterID:              Meter identifier, will have a match in the config file

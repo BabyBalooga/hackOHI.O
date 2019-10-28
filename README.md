@@ -21,7 +21,7 @@ StatusCode:           Numeric representation of status
 ------
 The config file contains meta data for the challenge. Each meter represents consumption for a building. Meter and building attributes are included here.
                       
-MeterID:              Meter identifier, will have a match in the config file
+- MeterID:              Meter identifier, will have a match in the config file
 Description:          Description of what the meter is measuring
 Units:                Unit of measurement for this meter
 Resource:             Resource measured by this meter, can be Chilled Water, Heating Hot Water, or Steam

@@ -5,7 +5,7 @@ There are two types of files, data and config, linked on the column MeterID.
 
 ## Data Files
 
-The data files contain time series data for the challenge. Each meter represents the consumption for one of the following resources: Chilled Water, Heating Hot Water, or Steam. Each meter has two years (or less in some cases) of usage. There are three files. One contains daily data for all meters. Two others are hourly data split into two files due to size limitations.
+The data files contain time series data for the challenge. Each meter represents the consumption for one of the following resources: Chilled Water, Heating Hot Water, Steam, or Electricity. Each meter has two years (or less in some cases) of usage. There are three files. One contains daily data for all meters. Two others are hourly data split into two files due to size limitations.
 
 Field Name | Field Description
 ---------- | -----------------
@@ -26,7 +26,7 @@ Field Name | Field Description
 MeterID |              Meter identifier, will have a match in the config file
 Description |          Description of what the meter is measuring
 Units |                Unit of measurement for this meter
-Resource |             Resource measured by this meter, can be Chilled Water, Heating Hot Water, or Steam
+Resource |             Resource measured by this meter, can be Chilled Water, Heating Hot Water, Steam, or Electricity
 BuildingID |           ID for the building where this meter is located
 BuildingName |         Name of this building
 GrossSquareFeet |      Size of this building in square feet

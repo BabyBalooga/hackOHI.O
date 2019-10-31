@@ -1,11 +1,11 @@
 # HackOHI.O
 Data For OSU Hackathon
 
-There are two files, data and config, linked on the column MeterID.
+There are two types of files, data and config, linked on the column MeterID.
 
-## HackathonData.csv
+## Data Files
 
-The data file contains time series data for the challenge. Each meter represents the consumption for one of the following resources: Chilled Water, Heating Hot Water, or Steam. Each meter has two years (or less in some cases) of average daily usage.
+The data files contain time series data for the challenge. Each meter represents the consumption for one of the following resources: Chilled Water, Heating Hot Water, or Steam. Each meter has two years (or less in some cases) of usage. There are three files. One contains daily data for all meters. Two others are hourly data split into two files due to size limitations.
 
 Field Name | Field Description
 ---------- | -----------------
@@ -17,7 +17,7 @@ Status |               Sometimes meters malfunction this indicates if this measu
 StatusCode |           Numeric representation of status
                       
 
-## HackathonConfig.csv
+## Config Files
 
 The config file contains meta data for the challenge. Each meter represents consumption for a building. Meter and building attributes are included here, if available.
           

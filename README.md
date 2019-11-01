@@ -13,13 +13,13 @@ MeterID |              Meter identifier, will have a match in the config file
 CurrentValue |         Most precise measurement value
 ValueString |          Less precise measurement value
 Time |                 Time of measurement in UTC, format yyyy-mm-ddThh:mm:ssZ
-Status |               Sometimes meters malfunction this indicates if this measurement is OK or UNRELIABLE
+Status |               Sometimes meters malfunction, this indicates if this measurement is OK or UNRELIABLE
 StatusCode |           Numeric representation of status
                       
 
 ## Config Files
 
-The config file contains meta data for the challenge. Each meter represents consumption for a building. Meter and building attributes are included here, if available.
+The config file contains metadata for the challenge. Each meter represents consumption for a building. Meter and building attributes are included here, if available.
           
 Field Name | Field Description
 ---------- | -----------------

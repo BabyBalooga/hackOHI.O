@@ -39,6 +39,6 @@ LocationType |         Category of usage of this building
 SteamSourceID |        BuildingID representing the source of steam of this building (1)
 ChilledWaterSourceID | BuildingID representing the source of chilled water of this building (1)
 HotWaterSourceID |     BuildingID representing the source of hot water of this building (1)
-ActivationDate |       The first date for which data is available
+ActivationDate |       The date/tiem this meter started reporting data
 
 1. Some buildings are supplied by other buildings on campus and will have values, others are supplied by external sources and will not have values.

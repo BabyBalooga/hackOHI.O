@@ -23,11 +23,11 @@ The config file contains metadata for the challenge. Each meter represents consu
           
 Field Name | Field Description
 ---------- | -----------------
+BuildingID |           ID for the building where this meter is located
 MeterID |              Meter identifier, will have a match in the config file
 Description |          Description of what the meter is measuring
 Units |                Unit of measurement for this meter
 Resource |             Resource measured by this meter, can be Chilled Water, Heating Hot Water, Steam, or Electricity
-BuildingID |           ID for the building where this meter is located
 BuildingName |         Name of this building
 GrossSquareFeet |      Size of this building in square feet
 BuildDate |            Construction date of this building
@@ -39,6 +39,6 @@ LocationType |         Category of usage of this building
 SteamSourceID |        BuildingID representing the source of steam of this building (1)
 ChilledWaterSourceID | BuildingID representing the source of chilled water of this building (1)
 HotWaterSourceID |     BuildingID representing the source of hot water of this building (1)
-
+ActivationDate |       The first date for which data is available
 
 1. Some buildings are supplied by other buildings on campus and will have values, others are supplied by external sources and will not have values.
